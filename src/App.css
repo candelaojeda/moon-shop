@@ -7,3 +7,40 @@
   color: rgb(0, 0, 0);
   letter-spacing: 2px;
 }
+h7 {
+  background: rgb(245, 4, 245);
+}
+@media screen and (min-width: 1024px) {
+  .introduction {
+    background: rgb(0, 0, 0);
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+  }
+  .introduction-content {
+    flex: 0, 0, 50%;
+  }
+}
+.introduction-title {
+  color: rgb(255, 255, 255);
+  padding: 5%;
+  margin-left: 12%;
+  font-size: 60px;
+  font-weight: bold;
+}
+hr {
+  color: rgb(245, 4, 245);
+}
+.introduction-paragraph {
+  color: rgb(245, 4, 245);
+  padding: 5%;
+  margin-left: 12%;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.introduction-image {
+  max-width: 100%;
+  height: auto;
+}
