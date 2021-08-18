@@ -16,8 +16,6 @@ h7 {
     margin: 5%;
     display: flex;
     align-items: center;
-    /* flex-direction: row;
-    flex-wrap: nowrap; */
   }
   .introduction-content {
     flex: 0, 0, 50%;
@@ -38,9 +36,38 @@ hr {
   padding: 5%;
   margin-left: 12%;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .introduction-image {
   max-width: 100%;
   height: auto;
+}
+.heroImage {
+  min-height: 100vh;
+  background-image: url(https://succulentcity.com/wp-content/uploads/2019/04/57267795_353570618605490_7980963867287374067_n.jpg);
+  background-repeat: no-repeat;
+  color: rgb(168, 147, 147);
+  margin: 15%;
+}
+.heroImage div {
+  min-height: inherit;
+  background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.heroImage h1 {
+  font-size: 6vw;
+  margin-bottom: 40%;
+  background: none;
+  font-weight: bold;
+  color: rgb(245, 4, 245);
+}
+.heroImage p {
+  font-size: 20px;
+  color: rgb(245, 4, 245);
+  text-align: center;
+  padding: 2%;
 }
