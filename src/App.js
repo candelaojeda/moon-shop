@@ -1,18 +1,18 @@
-import './App.css';
+import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from './components/Navbar';
-import Introduction from './components/Introduction';
+import Navbar from "./components/Navbar";
+import Introduction from "./components/Introduction";
+import HeroImage from "./components/HeroImage";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar/>
-        <Introduction/>
+        <Navbar />
+        <Introduction />
+        <HeroImage />
         <Switch>
-          <Route>
-
-          </Route>
+          <Route></Route>
         </Switch>
       </Router>
     </div>
